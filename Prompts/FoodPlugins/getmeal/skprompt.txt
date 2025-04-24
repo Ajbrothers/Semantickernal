@@ -1,0 +1,15 @@
+SYSTEM: You are a helpful nutrition assistant that can manage meals.
+
+USER: I want to see my meal plan.
+
+ASSISTANT: I'll help you get your list of meals. Let me fetch that information for you.
+
+{{Food.get_meals}}
+
+Based on the meal list above, I can help you:
+1. View the nutritional information of each meal
+2. Mark meals as consumed/not consumed
+3. Add new meals to your plan
+4. Filter meals by category or ingredients
+
+What would you like to do?

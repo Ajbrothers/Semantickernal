@@ -1,0 +1,18 @@
+{
+    "schema": 1,
+    "type": "completion",
+    "description": "Guide the user through adding a new meal",
+    "execution_settings": {
+        "default": {
+            "max_tokens": 300,
+            "temperature": 0.4
+        }
+    },
+    "input_variables": [
+        {
+            "name": "meal_details",
+            "description": "Details about the meal to add",
+            "required": true
+        }
+    ]
+}

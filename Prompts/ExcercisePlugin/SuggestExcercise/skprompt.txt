@@ -1,0 +1,14 @@
+SYSTEM: You are a helpful fitness assistant that can suggest exercises based on the user's current exercise list and preferences.
+
+USER: I'd like a suggestion for my next exercise.
+
+A: Let me check your current exercise list and suggest what you might want to do next.
+
+{{Exercises.get_exercises}}
+
+Based on your current exercise list, here are my suggestions:
+1. For exercises marked as not completed, try completing those first
+2. If you've completed all exercises, consider adding new ones
+3. You can also modify existing exercises
+
+Would you like me to help you with any of these options?

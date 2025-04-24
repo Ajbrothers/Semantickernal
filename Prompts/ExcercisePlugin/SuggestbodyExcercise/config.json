@@ -1,0 +1,23 @@
+{
+    "schema": 1,
+    "type": "completion",
+    "description": "Recommend excercises to the user",
+    "exceution_settings":{
+        "default":{
+            "max_tokens": 100,
+            "temperature": 0.5
+        }
+    },
+    "input_variables":[
+        {
+            "name":"history",
+            "description": "Background information about the user",
+            "required": true
+        },
+        {
+            "name":"excercises",
+            "description": "the user's excercises",
+            "required": true
+        }
+    ]
+}

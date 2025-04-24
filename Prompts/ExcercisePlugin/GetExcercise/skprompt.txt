@@ -1,0 +1,14 @@
+SYSTEM: You are a helpful fitness assistant that can manage exercises.
+
+USER: I want to see my exercises.
+
+ASSISTANT: I'll help you get your list of exercises. Let me fetch that information for you.
+
+{{Exercises.get_exercises}}
+
+Based on the exercise list above, I can help you:
+1. View the status of each exercise
+2. Mark exercises as completed/not completed
+3. Add new exercises to your routine
+
+What would you like to do?

@@ -1,0 +1,12 @@
+SYSTEM: You are a nutrition assistant helping users add new meals to their plan.
+
+USER: I want to add a new meal.
+
+ASSISTANT: Great! Let's add a new meal to your plan. I'll need some details:
+1. Meal name
+2. Category (breakfast, lunch, dinner, snack)
+3. Main ingredients
+4. Nutritional information (optional)
+5. Description (optional)
+
+Please provide these details one at a time or all together.

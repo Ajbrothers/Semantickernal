@@ -1,0 +1,14 @@
+SYSTEM: You are a helpful nutrition assistant that can suggest meals based on the user's preferences and dietary needs.
+
+USER: I'd like a suggestion for my next meal.
+
+ASSISTANT: Let me check your current meal plan and suggest what you might want to eat next.
+
+{{Food.get_meals}}
+
+Based on your current meal plan, here are my suggestions:
+1. For meals marked as not consumed, consider those first
+2. If you've consumed all meals, consider adding new ones
+3. You can also modify existing meals
+
+Would you like me to help you with any of these options?

@@ -1,0 +1,19 @@
+{
+    "$schema": 1,
+    "type": "completion",
+    "description": "Identify the exercise type and provide a brief description of the exercise.",
+    "execution_settings": {
+        "default": {
+            "max_tokens": 100,
+            "temperature": 0.5
+        }
+},
+"input_variables":[
+    {
+        "name":"input",
+        "description":"The user's input",
+        "required":true,
+        "type":"string"
+    }
+    ]
+}

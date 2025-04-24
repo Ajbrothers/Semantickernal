@@ -1,0 +1,18 @@
+{
+    "schema": 1,
+    "type": "completion",
+    "description": "Retrieve the user's meal plan",
+    "execution_settings": {
+        "default": {
+            "max_tokens": 200,
+            "temperature": 0.3
+        }
+    },
+    "input_variables": [
+        {
+            "name": "input",
+            "description": "The user's request for meal information",
+            "required": true
+        }
+    ]
+}

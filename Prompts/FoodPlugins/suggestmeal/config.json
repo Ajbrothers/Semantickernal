@@ -1,0 +1,18 @@
+{
+    "schema": 1,
+    "type": "completion",
+    "description": "Suggest meals to the user based on preferences",
+    "execution_settings": {
+        "default": {
+            "max_tokens": 250,
+            "temperature": 0.5
+        }
+    },
+    "input_variables": [
+        {
+            "name": "preference",
+            "description": "The user's dietary preferences or restrictions",
+            "required": false
+        }
+    ]
+}
